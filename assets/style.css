@@ -1,0 +1,64 @@
+h1 {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0;
+}
+
+p {
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #3c78d8;
+}
+
+#weather-results-current {
+   background-color: lightblue;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  width: 100%;
+}
+
+#weather-results-future {
+   background-color: navy;
+   color:#fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  width: 100%;
+}

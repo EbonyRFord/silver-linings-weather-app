@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+   <link rel="stylesheet"  href="./style.css">
+    <title>Weather App Dashboard</title>
+</head>
+
+<body>
+    <h1>Weather App Dashboard</h1>
+
+    <div>
+        <form>
+            <p for="city-input">Search for a U.S. City!</p>
+            <input type="text" id="city-input" name="city">
+
+
+
+            <button type="submit">Get Weather</button>
+        </form>
+
+        <h1 id="city-name"></h1>
+        <h2 id="current-date"></h2>
+    </div>
+
+
+    <div id="weather-results-current">
+        <!-- weather data will be displayed here -->
+    </div>
+
+    <div id="weather-results-future">
+        <!-- weather data will be displayed here -->
+    </div>
+
+    <p id="search-history"> Recent Searches</p>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
